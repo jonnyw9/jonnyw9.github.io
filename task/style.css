@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0.5em;
+}
+nav a{
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    padding: 1em 2.5em;
+    float: left;
+    color: azure;
+}
+main{
+    padding: 5%;
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0.37)), url("resources/images/backgroundImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav1{
+    background-color: #4464dc;
+}
+.nav2{
+    background-color: #00156f;
+}
+.navCurrent{
+    background-color: #de9204;
+}
+nav{
+    overflow: hidden;
+    background-color: grey;
+}
+a{
+    text-decoration: none;
+}
+.bold{
+    color: #00156f;
+}
+table{
+    padding: 0.5em;
+    margin: 0.1em;
+    background-color: #ffffff;
+}
+.time{
+    padding: 0.5em;
+    margin: 1em;
+    background-color: #dedede;
+    color: #ffa400;
+    width: 10%;
+    font-size: 1.2em;
+
+}
+.info{
+    padding: 0.5em;
+    background-color: #efefef;
+    font-size: 1.2em;
+}
+h3{
+    color: #00156f;
+}
+h4{
+    color: #5e7ce3;
+}
+table p{
+    color: #616161;
+}
+.dayHeading{
+    margin: 0.1em;
+    margin-bottom: 1em;
+    background-color: #ffffff;
+}
+.dayTitle{
+    padding: 0.5em;
+    margin: 0.5em;
+    margin-bottom: 0.1em;
+    margin-top: 1em;
+    background-color: #e7e7e7;
+    color: #5e7ce3;
+}
+.agenda{
+    color: #00156f;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.register{
+    padding: 1em;
+    color: #ffffff;
+    background-color: #de9204;
+    text-transform: uppercase;
+}
+aside{
+    margin-bottom: 1em;
+    text-align: center;
+    margin-top: 2em;
+}
+.bannerButtons{
+    overflow: hidden;
+    display: block;
+    float: right;
+    text-transform: uppercase;
+}
+
+.bannerButtons a{
+    color: azure;
+    width: 100%;
+}
+h1{
+    font-size: 5em;
+    float: left;
+    color: #4464dc;
+}
+
+.topBanner{
+    padding: 1em;
+    display: block;
+    overflow: hidden;
+}
+h1{
+    margin: 0.5em;
+}
+.login{
+    background-color: #616161;
+    padding: 1em;
+    display: inline-block;
+}
+.registerButton{
+    background-color: #5e7ce3;
+    padding: 1em;
+    width: 7em;
+    display: inline-block;
+}
+.arrow{
+    text-align: center;
+    color: #5e7ce3;
+    font-size: 3em;
+}
+article{
+    background: linear-gradient(to right,#00156f, #5e7ce3);
+    text-align: center;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+article i{
+    margin: 0.5em;
+    font-size: 4em;
+}
+article p{
+    font-size: 1.5em;
+    color: azure;
+}
+article i{
+    color: #de9204;
+}
+.textBottomBanner{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background: #18181a;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding-top: 0.5em
+}
+.innerFooter{
+    color: azure;
+    display: inline-block;
+    margin: 0;
+    width: 95%;
+    height: 100%;
+}
+
+.innerFooter .logo{
+    width: 35%;
+    float: left;
+
+}
+.innerFooter .logo img{
+    width: 15em;
+}
+
+.footerInfo{
+    width: 30%;
+    margin-right: 1em;
+    margin-left: 2em;
+    margin-bottom: 0em;
+    float: left;
+}
+.footerInfo:last-child{
+    margin-right: 0;
+}
+.footerInfo ul li a{
+    color: azure;
+}
+.footerInfo h3{
+    color: azure;
+    border-bottom: azure solid;
+}
+.footerInfo .social{
+    list-style-type: none;
+    display: flex;
+}
+.footerInfo .social i{
+    font-size: 4em;
+    padding-right: 0.5em;
+}
+.footerInfo li{
+    list-style-type: none;
+}
+.footerInfo li i{
+    padding-right: 0.5em;
+}
+.footerBottom{
+    width: 100%;
+    background-color: #000000;
+    padding: 0.5em;
+    color: azure;
+    text-align: center;
+}
+.keynote{
+    color: #5e7ce3;
+    font-size: 1.5em;
+}
+
+
